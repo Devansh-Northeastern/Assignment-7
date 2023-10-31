@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.stopwatch {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.controls button {
+    padding: 8px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.time {
+    font-size: 2em;
+}
+
+.date-picker {
+    position: relative;
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.custom-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.date-controls button {
+    padding:5px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #bababa;
+    color: white;
+    font-size: 19px;
+}
+
+.date-controls button:hover {
+    background-color: #bababa;
+}

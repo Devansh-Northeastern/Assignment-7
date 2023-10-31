@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">    
+    <script src="stopwatch.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Stopwatch</h1>
+            <label for="date">Date: </label>
+            <!-- <input type="date" id="date"> -->
+            <div class="date-picker">
+                <!-- <input type="date" id="date" placeholder="YYYY-MM-DD"> -->
+                <input type="text" id="date" placeholder="YYYY-MM-DD" disabled>
+                <span class="date-controls">
+                    <button onclick="decreaseDate()"><b>-</b></button>
+                    <button onclick="increaseDate()"><b>+</b></button>
+                </span>
+            </div>
+        </div>
+    
+        <div class="stopwatch">
+            <div class="display" id="display">00:00:00</div>
+            <div class="controls">
+                <button onclick="startTimer()">Start</button>
+                <button onclick="stopTimer()">Stop</button>
+                <button onclick="resetTimer()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+<script>
+
+</script>
+
+</body>
+</html>
